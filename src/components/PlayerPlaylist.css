@@ -1,0 +1,48 @@
+.player-playlist-container{
+    padding:20px;
+     /* height:100%; */
+    /*overflow: scroll; */
+}
+.player-playlist-header{
+    margin-top:30px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.playlist-image-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image:url('https://images.unsplash.com/photo-1528243097678-739049bbf2e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBsYXlsaXN0fGVufDB8fDB8fHww');
+
+}
+.playlist-body{
+    color:#ededed;
+}
+.playlist-body .h1{
+    font-size:2.5rem;
+}
+
+.playlist-list{
+    color:#dcdcdc;
+    margin-top:30px;
+    display:flex;
+}
+.playlist-list .playlist-list-id{
+    width:10%;
+}
+.playlist-list .playlist-list-title{
+    width:40%;
+}
+.playlist-list .playlist-list-album{
+    width:40%;
+}
+.playlist-list .playlist-list-duration{
+    width:10%;
+}
+
+.playlist-list-container{
+    height:40vh;
+    overflow-y:scroll;
+
+}
